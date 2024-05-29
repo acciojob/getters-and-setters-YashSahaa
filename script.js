@@ -7,13 +7,13 @@ class Person {
 	get name(){
 		return this.name;
 	}
-	set name(name){
+	set setname(name){
 		this.name = name;
 	}
 	get age(){
 		this.age=age;
 	}
-	set age(age){
+	set setage(age){
 		this.age = age;
 	}
 }
