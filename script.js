@@ -7,6 +7,12 @@ class Person {
 	get name(){
 		return this.name;
 	}
+	set name(name){
+		this.name = name;
+	}
+	get age(){
+		this.age=age;
+	}
 	set age(age){
 		this.age = age;
 	}
@@ -26,7 +32,7 @@ class Teacher extends Person {
 		super(name,age);
 	}
 	teach(){
-		console.log(this.name +" is studying");
+		console.log(this.name +" is teaching");
 	}
 }
 
